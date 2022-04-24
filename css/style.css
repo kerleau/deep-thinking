@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: #4FAFFF;
+}
+
+.head--img {
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+}
+
+.head--user {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+.img--foot {
+    height: 33px;
+    width: 33px;
+}
+
+.img-graf {
+    height: 20%;
+    width: 20%;
+}
+
+.img-car {
+    height: 50%;
+    width: 50%;
+}
+
+main {
+    font-family: 'Crimson Pro', serif;
+    border-radius: 5px;
+}
+
+header {
+    background-color: #FF9A3E;
+    border-spacing: 5px;
+    border-style:solid;
+    border-color:#3c4c8f;
+    border-radius: 5px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.header--search p {
+  padding:7px;
+}
+
+footer {
+    background-color: #A0C5F7;
+    border-spacing: 5px;
+    border-style:solid;
+    border-color:#3c4c8f;
+    border-radius: 5px;
+}
+
+figure {
+    text-decoration: none;
+    padding: 0px;   
+}
+
+.local--search {
+    border-radius: 15px 50px 30px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 100px;
+    height: 5px; 
+}
+
+.header--div {
+    margin: 3px;
+}
+
+.header--div h1 {
+  color: #082338;
+  padding: 5px;
+}
+
+
+a:hover {
+    background-color:  #ff9a3e;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #082338;
+    font-family: 'Crimson Pro', serif;
+    font-size: large;
+    padding: 10px;
+    margin: 1px;
+}
+
+.menu li {
+
+    border: 2px solid #082338;
+    background-color: white ;
+    padding: 10px;
+}
+
+.principal {
+    padding: 30px;
+    margin: 8px;
+}
+
+.sutta {
+    padding: 33px;
+    margin: 10px;
+}
+
+
+.main--imagenes {
+    height: 1x;
+    
+    background-image: url("../img/smallbuddha.jpg");
+
+    padding: 80px;
+    margin: 40px;
+}
+
+.endMenu {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.endMenu a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contenedor div {
+    border: 2px solid #082338;
+   width: 50%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.contenedor  img, h3, p, form {
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.contenedorAction { 
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedorAction form { 
+    list-style-type: none;
+    border: 2px solid #082338;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedorNarrativa { 
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedorNarrativa p { 
+
+    width: 80%;
+}
+
+#agregarNarrativa {
+    font-size: 14pt;
+    height: 42px;
+    width : 300px;
+
+}
+
+.forma input, label, legend, div, textarea {
+    padding: 5px;
+    margin: 5px;
+}
+
+.contenedorLogin {
+    padding: 25px;
+   
+}
+
+.contenedorLogin input , a {
+    padding: 5px;
+   
+}
+
+.boton--login {
+   width: 10pc;
+}
+
+/*------------------------------FLEXBOX------------------------------*/
+
+.contenedorNarrativa div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link--conte-narrativa {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorAction {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.contenedorLogin {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.endMenu {
+    display: flex;
+}
+
+
+.endMenu ul {
+    display: flex;
+}
+
+.main--imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header--search {
+    display: flex;
+    align-items: center;
+}
+
+.header--div {
+    display: flex;
+    align-items: center;
+}
