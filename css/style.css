@@ -593,3 +593,15 @@ footer {
 }
 
 }
+
+
+.portada {
+    grid-area: grid--2;
+    padding: 10px;
+    align-self: center;
+    background-image: url("../img/golden-dharma-wheel.jpg");
+    }
+
+#navheadprincipal {
+    background-color: #046DC8;
+}
